@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>天天酷跑</title>
+		<style type="text/css">
+			.ok{
+				width: 500px;
+				height: 350px;
+				border: 5px solid bisque;
+				margin: 50px auto;
+				background-image: url(img/paoku/bg_1.png);
+				background-size: 507px 215px;
+				background-repeat: repeat-x;
+				background-position: top;
+				position: relative;
+				-webkit-animation: ok1 5s linear infinite;
+			}
+			.ok1{
+				position: absolute;
+				width: 500px;
+				height: 350px;
+				background-image: url(img/paoku/bg_2.png);
+				background-size: 507px 231px;
+				background-repeat: repeat-x;
+				background-position: bottom;
+				-webkit-animation: ok1 2s linear infinite;
+			}
+			.ok2{
+				position: absolute;
+				background-image: url(img/paoku/1.png);
+				width: 123px;
+				height: 105px;
+				position: absolute;
+				left: 50%;
+				margin-left:-62px;
+				bottom: 56px;
+				-webkit-animation: ok2 0.6s linear infinite;
+			}
+			.bottm{
+				width: 500px;
+				position: absolute;
+				bottom: 0;
+			}
+			@-webkit-keyframes ok1{
+				from{
+					background-position-x: 0px;
+				}
+				to{
+					background-position-x: -507px;
+				}
+			}
+			
+			@-webkit-keyframes ok2{
+				0%{background-image: url(img/paoku/1.png);}
+				
+				5%{background-image: url(img/paoku/2.png);}
+				
+				10%{background-image: url(img/paoku/3.png);}
+				
+				20%{background-image: url(img/paoku/4.png);}
+				
+				30%{background-image: url(img/paoku/5.png);}
+				
+				40%{background-image: url(img/paoku/6.png);}
+				
+				50%{background-image: url(img/paoku/7.png);}
+				
+				60%{background-image: url(img/paoku/8.png);}
+				
+				70%{background-image: url(img/paoku/9.png);}
+				
+				80%{background-image: url(img/paoku/10.png);}
+				
+				90%{background-image: url(img/paoku/11.png);}
+				
+				100%{background-image: url(img/paoku/12.png);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ok">
+			<div class="ok1">
+				<div class="ok2">
+				</div>
+			</div>
+			<img class="bottm" src="img/paoku/bg.png" />
+		</div>
+	</body>
+</html>
